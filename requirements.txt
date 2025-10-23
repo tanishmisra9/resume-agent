@@ -1,0 +1,30 @@
+# LangChain + OpenAI / LangGraph stack
+langchain==1.0.2
+langchain-core==1.0.0
+langchain-openai==1.0.1
+langgraph==1.0.1
+langgraph-checkpoint==3.0.0
+langgraph-prebuilt==1.0.1
+langgraph-sdk==0.2.9
+langsmith==0.4.37
+
+# OpenAI SDK & env
+openai==2.6.0
+python-dotenv==1.1.1
+
+# Scraping & HTML parsing
+beautifulsoup4==4.14.2
+requests==2.32.5
+
+# Resume parsing
+pypdf==6.1.3
+
+# Local model / zero-shot classification pipeline
+transformers==4.57.1
+torch==2.9.0
+
+# (Optional helpers used across your environment)
+huggingface-hub==0.35.3
+sentencepiece==0.2.1
+tokenizers==0.22.1
+safetensors==0.6.2

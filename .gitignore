@@ -1,0 +1,15 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment and secrets
+.env
+venv/
+
+# Data (not needed in git)
+data/
+
+# IDE / OS files
+.DS_Store
+.vscode/
+.idea/
