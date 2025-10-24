@@ -49,13 +49,13 @@ def scrape_posting(url: str) -> str:
     return cleaned_text
 
 def filter_job_text(text: str) -> str:
-    """Use zero-shot classification to filter for relevant internship/job content."""
+    """Use zero-shot classification to filter for relevant internship or job content across industries."""
     candidate_labels = [
-        "software engineering internship",
-        "AI internship",
-        "machine learning internship",
-        "data science internship",
-        "research internship",
+        "internship description",
+        "job description",
+        "company hiring information",
+        "recruitment posting",
+        "career opportunity",
         "unrelated text"
     ]
 
